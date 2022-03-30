@@ -3,6 +3,17 @@
 This repository contains the source and demonstrations for the catalog of self-describing assets, contribution from the Central Intelligence Platform Team.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Development recommended pre-requisites
+
+Prettier is used for handling styling automatically.
+This tool runs on all code in a pre-commit step.
+It is recommended to also use prettier in your IDE so you see those prettier-related changes in your code prior to commit.
+The vscode-related config is already included in this project, but it requires the extension to be installed with the following command:
+
+```
+ext install esbenp.prettier-vscode
+```
+
 ## Getting Started
 
 First, run the development server:
