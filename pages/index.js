@@ -5,13 +5,13 @@ import styles from '../styles/Home.module.css'
 export async function getStaticProps() {
   // nextjs doesn't support environment variables in URLs used in getStaticProps
   //const res = await fetch(`${process.env.MOCK_API_HOST}/posts`)
-  const res = await fetch('http://localhost:3001/posts')
-  const posts = await res.json()
+  const res = await fetch('http://localhost:3001/assets')
+  const assets = await res.json()
 
-  return { props: { posts } }
+  return { props: { assets } }
 }
 
-export default function Index({ posts }) {
+export default function Index({ assets }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -21,8 +21,10 @@ export default function Index({ posts }) {
       </Head>
 
       <main className={styles.main}>
-        {posts.map((post, i) => (
-          <div key={`post-${i}`}>{post.title}</div>
+        {assets.map((asset, i) => (
+          <div key={`asset-${i}`}>
+            {asset.name}@{asset.version}
+          </div>
         ))}
       </main>
 
