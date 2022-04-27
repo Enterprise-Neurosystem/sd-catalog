@@ -15,8 +15,10 @@ It is recommended to also use prettier in your IDE so you see those prettier-rel
 The vscode-related config is already included in this project, but it requires the extension to be installed with the following command:
 
 ```
-ext install esbenp.prettier-vscode
+code --install-extension esbenp.prettier-vscode
 ```
+
+You could also enable `Format on save` in vscode settings, which would ensure syntax changes this extension will make automatically appear on save.
 
 ## Getting Started
 
