@@ -121,26 +121,21 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Team
+## Team members
 
 Below are links to the team.
-For now the easiest way to reach out to us (and the broader team) is to create an issue on this repo.
-We'll update this list and steps to contact our group as it changes.
+Contact [Josh Purcell](josh@redpanda.com) with any questions.
 
-https://github.com/archana-ravindar
+- https://github.com/archana-ravindar
+- https://github.com/dasanind
+- https://github.com/dineshverma
+- https://github.com/edelsohn
+- https://github.com/jankivora
+- https://github.com/jriviere0316
+- https://github.com/rahulbatra85
+- https://github.com/shirley336
+- https://github.com/vuldin
 
-https://github.com/dasanind
+## Meetings
 
-https://github.com/dineshverma
-
-https://github.com/edelsohn
-
-https://github.com/jankivora
-
-https://github.com/jriviere0316
-
-https://github.com/rahulbatra85
-
-https://github.com/shirley336
-
-https://github.com/vuldin
+Meetings are held bi-weekly on Wednesday at 5pm Eastern (UTC-5). Contact Josh (details above) for zoom details. Meeting minutes (if any) will be posted here.
